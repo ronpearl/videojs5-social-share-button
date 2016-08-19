@@ -29,13 +29,13 @@ function addShareButton(player, link, title) {
     newButton.addClass('vjs-share-button');
     newButton.el().innerHTML = '<span class="vjs-control-text">Share</span>' +
         '<div id="video-share-icons">' +
-        '<a href="mailto:?Subject=Check Out This Video From GCU!&amp;Body=I%20thought%20you%20might%20like%20to%20see%20this!%20 %0D%0A  %0D%0A' + title + '%0D%0A' +link+'">' +
+        '<a href="mailto:?Subject=Check Out This Video!&amp;Body=I%20thought%20you%20might%20like%20to%20see%20this!%20 %0D%0A  %0D%0A' + title + '%0D%0A' +link+'">' +
         '<span class="fa fa-2x fa-envelope"></span>' +
         '</a>' +
         '<a href="http://www.facebook.com/sharer.php?u=' + link + '" target="_blank">' +
         '<span class="fa fa-2x fa-facebook"></span>' +
         '</a>' +
-        '<a href="https://twitter.com/share?url=' + link + '&amp;text=' + title + '&amp;hashtags=GCUTV" target="_blank">' +
+        '<a href="https://twitter.com/share?url=' + link + '&amp;text=' + title + '&amp;hashtags=SomeTag" target="_blank">' +
         '<span class="fa fa-2x fa-twitter"></span>' +
         '</a>' +
         '<a href="https://plus.google.com/share?url=' + link + '" target="_blank">' +
