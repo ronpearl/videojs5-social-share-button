@@ -21,5 +21,7 @@ This is a function that you can implement into your VideoJS project.
 The method accepts variables for the player Object, link that you 
 want to share, and a title that will go along with the share.
 
+Add this method to your project and have fun!
+
 ## Licensing
 Provided as is. Use as you wish. 
